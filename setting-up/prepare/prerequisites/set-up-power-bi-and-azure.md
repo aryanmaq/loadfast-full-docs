@@ -47,57 +47,57 @@ You must have the necessary CPU cores quota inside the subscription for the Kube
 
 
 
-    {% hint style="danger" %}
-    **Warning:** The option selected for the maximum concurrent load count value later in the [Deployment ](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/deployment/deploy-automatically-via-azure-marketplace)section **CANNOT** be increased after deployment. If an increase is needed, the tool will have to be re-deployed and re-set up from the beginning.
+{% hint style="danger" %}
+**Warning:** The option selected for the maximum concurrent load count value later in the [Deployment ](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/deployment/deploy-automatically-via-azure-marketplace)section **CANNOT** be increased after deployment. If an increase is needed, the tool will have to be re-deployed and re-set up from the beginning.
 
-    Take this into consideration as you select an option.
+Take this into consideration as you select an option.
 
-    **Example**:
+**Example**:
 
-    If 100 was selected as the maximum concurrent load count value but...
+If 100 was selected as the maximum concurrent load count value but...
 
-    * I only need 50 --> The load limit can be reduced directly within the tool.
-    * I need 150 --> The tool will have to be re-deployed.
-    {% endhint %}
+* I only need 50 --> The load limit can be reduced directly within the tool.
+* I need 150 --> The tool will have to be re-deployed.
 
-
-
-    {% hint style="info" %}
-    **Note:** The maximum concurrent load count value is the largest number that you will enter under **Load testing count** in the tool. This is the highest number of simulated users you want to test using your Power BI reports/pages.
+{% endhint %}
 
 
 
-    In the [Deployment ](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/deployment/deploy-automatically-via-azure-marketplace)section, you will be asked to select your maximum concurrent load count from a list of **predetermined options**. To ensure the tool runs smoothly and quotas align, the maximum concurrent load count value used in the calculation here needs to be to one of the predetermined options:&#x20;
-
-    * 30
-    * 40
-    * 50
-    * 75
-    * 100
-    * 150
-    * 200
+{% hint style="info" %}
+**Note:** The maximum concurrent load count value is the largest number that you will enter under **Load testing count** in the tool. This is the highest number of simulated users you want to test using your Power BI reports/pages.
 
 
 
-    **Example:** If the maximum concurrent load count value needed is 175, we can either **round up** to 200 or **round down** to 150. We recommend rounding up for more flexibility but do what best suits your organization's resources.
-    {% endhint %}
+In the [Deployment ](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/deployment/deploy-automatically-via-azure-marketplace)section, you will be asked to select your maximum concurrent load count from a list of **predetermined options**. To ensure the tool runs smoothly and quotas align, the maximum concurrent load count value used in the calculation here needs to be to one of the predetermined options:&#x20;
+
+* 30
+* 40
+* 50
+* 75
+* 100
+* 150
+* 200
+
+
+
+**Example:** If the maximum concurrent load count value needed is 175, we can either **round up** to 200 or **round down** to 150. We recommend rounding up for more flexibility but do what best suits your organization's resources.
+{% endhint %}
+
 5.  For the region where you want to deploy the LoadFAST tool in, check if the **Current usage** value meets the available cores needed value (e.g., in the image below, the **Current usage** value is 40 of 1,500). &#x20;
 
 
 
-    {% hint style="info" %}
-    **Example:**&#x20;
+{% hint style="info" %}
+**Example:**&#x20;
 
-    Maximum concurrent load count = 200&#x20;
+Maximum concurrent load count = 200&#x20;
 
-    Available cores needed = **maximum concurrent load count \* 2** = 200 \* 2 = 400&#x20;
+Available cores needed = **maximum concurrent load count \* 2** = 200 \* 2 = 400&#x20;
 
-    If the **Current usage** value is 50 of 500, it means 450 is available. Since we only need 400, this means that there are enough cores available.
-    {% endhint %}
+If the **Current usage** value is 50 of 500, it means 450 is available. Since we only need 400, this means that there are enough cores available.
+{% endhint %}
+<figure><img src="../../../.gitbook/assets/2.9 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
-    <figure><img src="../../../.gitbook/assets/2.9 (1) (1).png" alt=""><figcaption></figcaption></figure>
 6.  If your subscription does not have enough cores, then increase the core quota limit by clicking on the pencil icon under the **Adjustable** column.&#x20;
 
     <figure><img src="../../../.gitbook/assets/2.10 (3).png" alt=""><figcaption></figcaption></figure>
