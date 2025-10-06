@@ -49,9 +49,9 @@ To update the application, follow the steps detailed below steps.
 
         <figure><img src="../.gitbook/assets/13.12 (1).png" alt=""><figcaption></figcaption></figure>
 
-    \{% hint style="warning" %\}\
+    {% hint style="warning" %\}
     The Windows PowerShell ISE must be opened in the same location as the downloaded PowerShell zip.\
-    \{% endhint %\}
+    {% endhint %}
 
     **For running script in Azure cloud shell**
 
