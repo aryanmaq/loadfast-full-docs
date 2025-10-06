@@ -23,9 +23,9 @@
 
         <figure><img src="../../.gitbook/assets/13.12 (1).png" alt=""><figcaption></figcaption></figure>
 
-    {% hint style="warning" %}
-    The Windows PowerShell ISE must be opened in the same location as the downloaded PowerShell zip.
-    {% endhint %}
+{% hint style="warning" %}
+The Windows PowerShell ISE must be opened in the same location as the downloaded PowerShell zip.
+{% endhint %}
 
     **For running script in Azure cloud shell**
     1. Open [Azure portal](https://portal.azure.com) and launch **Azure cloud shell**.
@@ -138,11 +138,11 @@ If already logged into Azure, it will ask you to pick an account. If not, then y
       <figure><img src="../../.gitbook/assets/15.1 (1).png" alt=""><figcaption></figcaption></figure>
   2.  Once on the page, you will see a list of Kubernetes clusters displayed. Select the Kubernetes cluster created for your web app (more information regarding cluster name detailed in the note).
 
-      {% hint style="info" %}
-      **Note:** Kubernetes clusters are automatically created and named as follows: "**WebAppName**\_AksCluster".&#x20;
+{% hint style="info" %}
+**Note:** Kubernetes clusters are automatically created and named as follows: "**WebAppName**\_AksCluster".&#x20;
 
-      In our case, our web app was named "**powerbiloadanalyzer**" (as seen in step 4 of this [process](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/deployment/deploy-automatically-via-azure-marketplace#create-a-managed-application)). Thus, our Kuberenetes cluster name is "powerbiloadanalyzer\_AksCluster".&#x20;
-      {% endhint %}
+In our case, our web app was named "**powerbiloadanalyzer**" (as seen in step 4 of this [process](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/deployment/deploy-automatically-via-azure-marketplace#create-a-managed-application)). Thus, our Kuberenetes cluster name is "powerbiloadanalyzer\_AksCluster".&#x20;
+{% endhint %}
 
       <figure><img src="../../.gitbook/assets/15.5.png" alt=""><figcaption></figcaption></figure>
   3.  Select **Workloads** (under Kubernetes resources) from the left pane.&#x20;
