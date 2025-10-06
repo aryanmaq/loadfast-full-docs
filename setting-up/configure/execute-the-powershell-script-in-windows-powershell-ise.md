@@ -22,8 +22,6 @@
     5. The script will begin execution and prompt you for input. Provide the required information as requested.
 
         <figure><img src="../../.gitbook/assets/13.12 (1).png" alt=""><figcaption></figcaption></figure>
-
-
  {% hint style="warning" %}
         The Windows PowerShell ISE must be opened in the same location as the downloaded PowerShell zip.
  {% endhint %}   
@@ -33,43 +31,43 @@
 
     <figure><img src="../../.gitbook/assets/open-cloud-shell.png" alt=""><figcaption></figcaption></figure>
 
-    2. Click **Switch to PowerShell**.
+2. Click **Switch to PowerShell**.
 
     <figure><img src="../../.gitbook/assets/switch-to-ps.png" alt=""><figcaption></figcaption></figure>
 
-    3. Click  **Manage files** to upload your script.
+3. Click  **Manage files** to upload your script.
 
     <figure><img src="../../.gitbook/assets/manage-files-az.png" alt=""><figcaption></figcaption></figure>
 
-    4. Upload both files from **LoadFAST Azure PowerShell Script** inside the extracted folder.
+4. Upload both files from **LoadFAST Azure PowerShell Script** inside the extracted folder.
 
     <figure><img src="../../.gitbook/assets/upload-files.jpg" alt=""><figcaption></figcaption></figure>
 
-    5. Run the script using **& './Azure Cloud PowerShell Script.ps1'** command.
+5. Run the script using **& './Azure Cloud PowerShell Script.ps1'** command.
 
-    6. The script will prompt you for required input. Fill in the information as needed.
+6. The script will prompt you for required input. Fill in the information as needed.
 
-        <figure><img src="../../.gitbook/assets/13.12 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/13.12 (1).png" alt=""><figcaption></figcaption></figure>
 
-        If you see an error message after entering inputs
+    If you see an error message after entering inputs
 
-        <figure><img src="../../.gitbook/assets/az-error.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/az-error.png" alt=""><figcaption></figcaption></figure>
 
-        Click on **New session** and re-run the script.
+    Click on **New session** and re-run the script.
 
-        <figure><img src="../../.gitbook/assets/new-session.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/new-session.png" alt=""><figcaption></figcaption></figure>
 
-    7. You’ll be prompted to log in. Copy the code shown and click the provided link.
+7. You’ll be prompted to log in. Copy the code shown and click the provided link.
 
-        <figure><img src="../../.gitbook/assets/click-on-link.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/click-on-link.png" alt=""><figcaption></figcaption></figure>
 
-    8. Paste the code into the login screen and sign in with your account.
+8. Paste the code into the login screen and sign in with your account.
 
-        <figure><img src="../../.gitbook/assets/enter-code.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/enter-code.png" alt=""><figcaption></figcaption></figure>
 
-    9. After logging in, enter your **client secret** when prompted. The script will now run successfully.
+9. After logging in, enter your **client secret** when prompted. The script will now run successfully.
 
-        <figure><img src="../../.gitbook/assets/client-secret.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/client-secret.png" alt=""><figcaption></figcaption></figure>
 
 ## Provide inputs for the prompts
 
@@ -143,9 +141,7 @@ If already logged into Azure, it will ask you to pick an account. If not, then y
 **Note:** Kubernetes clusters are automatically created and named as follows: "**WebAppName**\_AksCluster".&#x20;
 
 In our case, our web app was named "**powerbiloadanalyzer**" (as seen in step 4 of this [process](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/deployment/deploy-automatically-via-azure-marketplace#create-a-managed-application)). Thus, our Kuberenetes cluster name is "powerbiloadanalyzer\_AksCluster".&#x20;
-{% endhint %}
-
-      <figure><img src="../../.gitbook/assets/15.5.png" alt=""><figcaption></figcaption></figure>
+{% endhint %}<figure><img src="../../.gitbook/assets/15.5.png" alt=""><figcaption></figcaption></figure>
   3.  Select **Workloads** (under Kubernetes resources) from the left pane.&#x20;
 
       <figure><img src="../../.gitbook/assets/15.2 (1).png" alt=""><figcaption></figcaption></figure>
