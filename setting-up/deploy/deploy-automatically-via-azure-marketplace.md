@@ -64,7 +64,7 @@ To follow the deployment steps detailed below, you need to access Azure Marketpl
 6.  Review and edit the details shown on the **Review + create** page as needed.&#x20;
 
 {% hint style="info" %}
-    **Note:** Note down the details in the **Basics** section as it will be required in upcoming deployment steps.
+**Note:** Note down the details in the **Basics** section as it will be required in upcoming deployment steps.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/12.5.png" alt=""><figcaption></figcaption></figure>
@@ -75,13 +75,13 @@ To follow the deployment steps detailed below, you need to access Azure Marketpl
     <figure><img src="../../.gitbook/assets/12.6 (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-    **Note:** If an error occurs or deployment fails, please try to resolve it by clicking on **Error details**. If it cannot be resolved, contact [our team](mailto:Sales@MAQSoftware.com) for additional assistance.
+**Note:** If an error occurs or deployment fails, please try to resolve it by clicking on **Error details**. If it cannot be resolved, contact [our team](mailto:Sales@MAQSoftware.com) for additional assistance.
 
 
 
-    Error example: ![](../../.gitbook/assets/12.8.png)
+Error example: ![](../../.gitbook/assets/12.8.png)
 
-    Error details page: ![](../../.gitbook/assets/12.9.png)
+Error details page: ![](../../.gitbook/assets/12.9.png)
 
 
 {% endhint %}
