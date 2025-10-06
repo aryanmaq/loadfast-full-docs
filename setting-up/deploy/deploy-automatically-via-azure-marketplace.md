@@ -44,7 +44,7 @@ To follow the deployment steps detailed below, you need to access Azure Marketpl
         * Web app name: Create and enter a name. This will be the name of the **web app** that is deployed when using the LoadFAST tool. This will be the URL of the tool: "https://<**app\_name>**.azurewebsites.net".
         * Maximum user load count: Select the value that was used in your [calculations](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/prerequisites/set-up-power-bi-and-azure#kubernetes-regional-cores-quota) earlier (step 4 of that section).
 
-        {% hint style="danger" %}
+{% hint style="danger" %}
         **Warning:** The option selected for the maximum concurrent load count **CANNOT** be increased after deployment. If an increase is needed, the tool will have to be re-deployed and re-set up from the beginning.
 
         Take this into consideration as you select an option.
@@ -55,16 +55,16 @@ To follow the deployment steps detailed below, you need to access Azure Marketpl
 
         * I only need 50 --> The load limit can be reduced directly within the tool.
         * I need 150 --> The tool will have to be re-deployed.
-        {% endhint %}
+{% endhint %}
     * Managed Application Details
       * Application Name: Create and enter a name. This will be the name of the **managed application** where the Azure resources for the tool will reside.
       * Managed Resource Group: This field will be prepopulated when the form is opened. By default, the managed resource group name will be in this format: "mrg-powerbiloadanalyzer-**\<CurrentYearMonthDayHourMinuteSeconds>**", but you can change it to any name you want.
 5. Click on **Next** to validate your inputs.
 6.  Review and edit the details shown on the **Review + create** page as needed.&#x20;
 
-    {% hint style="info" %}
+{% hint style="info" %}
     **Note:** Note down the details in the **Basics** section as it will be required in upcoming deployment steps.
-    {% endhint %}
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/12.5.png" alt=""><figcaption></figcaption></figure>
 
@@ -73,7 +73,7 @@ To follow the deployment steps detailed below, you need to access Azure Marketpl
 
     <figure><img src="../../.gitbook/assets/12.6 (1).png" alt=""><figcaption></figcaption></figure>
 
-    {% hint style="info" %}
+{% hint style="info" %}
     **Note:** If an error occurs or deployment fails, please try to resolve it by clicking on **Error details**. If it cannot be resolved, contact [our team](mailto:Sales@MAQSoftware.com) for additional assistance.
 
 
@@ -83,7 +83,7 @@ To follow the deployment steps detailed below, you need to access Azure Marketpl
     Error details page: ![](../../.gitbook/assets/12.9.png)
 
 
-    {% endhint %}
+{% endhint %}
 
 
 9.  Note down the managed resource group name as it will be required in upcoming steps.&#x20;
