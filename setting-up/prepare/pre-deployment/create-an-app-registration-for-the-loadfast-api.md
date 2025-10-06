@@ -36,9 +36,9 @@ To create an app registration, you must have one of the following Microsoft Entr
 
 
 
-    {% hint style="info" %}
+{% hint style="info" %}
     **Note:** Note down the display name, application (client) ID, and directory (tenant) ID. These details will be required as part of the set up process.
-    {% endhint %}
+{% endhint %}
 
 <figure><img src="../../../.gitbook/assets/5.12.png" alt=""><figcaption></figcaption></figure>
 

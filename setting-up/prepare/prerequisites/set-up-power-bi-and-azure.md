@@ -43,9 +43,7 @@ You must have the necessary CPU cores quota inside the subscription for the Kube
 3.  Search for **Standard DASv4 Family vCPU**.&#x20;
 
     <figure><img src="../../../.gitbook/assets/2.8 (1) (1).png" alt=""><figcaption></figcaption></figure>
-4.  Calculate the available cores needed (**maximum concurrent load count \* 2**).
-
-
+4.  Calculate the available cores needed (**maximum concurrent load count \* 2**). Aryan Updated
 
 {% hint style="danger" %}
 **Warning:** The option selected for the maximum concurrent load count value later in the [Deployment ](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/deployment/deploy-automatically-via-azure-marketplace)section **CANNOT** be increased after deployment. If an increase is needed, the tool will have to be re-deployed and re-set up from the beginning.
@@ -61,12 +59,8 @@ If 100 was selected as the maximum concurrent load count value but...
 
 {% endhint %}
 
-
-
 {% hint style="info" %}
 **Note:** The maximum concurrent load count value is the largest number that you will enter under **Load testing count** in the tool. This is the highest number of simulated users you want to test using your Power BI reports/pages.
-
-
 
 In the [Deployment ](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/deployment/deploy-automatically-via-azure-marketplace)section, you will be asked to select your maximum concurrent load count from a list of **predetermined options**. To ensure the tool runs smoothly and quotas align, the maximum concurrent load count value used in the calculation here needs to be to one of the predetermined options:&#x20;
 
@@ -77,8 +71,6 @@ In the [Deployment ](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-
 * 100
 * 150
 * 200
-
-
 
 **Example:** If the maximum concurrent load count value needed is 175, we can either **round up** to 200 or **round down** to 150. We recommend rounding up for more flexibility but do what best suits your organization's resources.
 {% endhint %}
