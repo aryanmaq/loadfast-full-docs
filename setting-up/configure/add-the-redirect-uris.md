@@ -52,11 +52,11 @@ You'll need to know the name of your web app to add the redirect URI.
 
     <figure><img src="../../.gitbook/assets/SPA_Configure.png" alt=""><figcaption></figcaption></figure>
 
-    {% hint style="info" %}
+{% hint style="info" %}
 
-    **Note**: The user web app URI will be in this format: “https://<_**name**_>.azurewebsites.net/”, where _**name**_ will be replaced with the web app name found in the [previous steps](add-the-redirect-uris.md#navigate-to-the-redirect-uris-section).
+**Note**: The user web app URI will be in this format: “https://<_**name**_>.azurewebsites.net/”, where _**name**_ will be replaced with the web app name found in the [previous steps](add-the-redirect-uris.md#navigate-to-the-redirect-uris-section).
 
-    {% endhint %}
+{% endhint %}
 
 
 
