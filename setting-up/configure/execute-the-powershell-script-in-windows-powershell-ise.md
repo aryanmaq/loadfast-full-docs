@@ -142,8 +142,9 @@ If already logged into Azure, it will ask you to pick an account. If not, then y
 
 In our case, our web app was named "**powerbiloadanalyzer**" (as seen in step 4 of this [process](https://maqsoftware.gitbook.io/pbi-load-analyzer-technical-documentation/setting-up/deployment/deploy-automatically-via-azure-marketplace#create-a-managed-application)). Thus, our Kuberenetes cluster name is "powerbiloadanalyzer\_AksCluster".&#x20;
 {% endhint %}<figure><img src="../../.gitbook/assets/15.5.png" alt=""><figcaption></figcaption></figure>
-  3.  Select **Workloads** (under Kubernetes resources) from the left pane.&#x20;
-  <figure><img src="../../.gitbook/assets/15.2 (1).png" alt=""><figcaption></figcaption></figure>
-  4.  Under the **Deployments** tab, you can see all the deployments. Ensure that they all have a green tick in the **Ready** column.&#x20;
 
-    <figure><img src="../../.gitbook/assets/13.18.png" alt=""><figcaption></figcaption></figure>
+3.  Select **Workloads** (under Kubernetes resources) from the left pane.&#x20;
+<figure><img src="../../.gitbook/assets/15.2 (1).png" alt=""><figcaption></figcaption></figure>
+
+4.  Under the **Deployments** tab, you can see all the deployments. Ensure that they all have a green tick in the **Ready** column.&#x20;
+<figure><img src="../../.gitbook/assets/13.18.png" alt=""><figcaption></figcaption></figure>
